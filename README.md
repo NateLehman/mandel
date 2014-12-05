@@ -6,4 +6,5 @@ You can specify the size and resolution (number of iterations) with a couple of 
 ./mandel -l 33 -r 23
 ```
 `-l`  Same as `--length=?` specifies the vertical length of the image
+
 `-r`  Same as `--resolution=?` specifies the number of iterations
