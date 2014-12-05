@@ -28,9 +28,7 @@ int printmandel(float len, int rez) {
       float step = 4 / (len - 1);
       float x = -2 + ((float) j * (step / 2) );
       float y = 2 - ((float) i * step);
-      printf("%x", mandel(x, y, rez));
-         
-            
+      printf("%x", mandel(x, y, rez)%15);
       if (j == ((len * 2) - 1)) {
         printf("\n");
       }
